@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+venv_airflow/
+.venv/
+
+# Airflow
+airflow.db
+logs/
+airflow/logs/
+airflow/standalone_admin_password.txt
+airflow/webserver_config.py
+*.pid
+
+# Data
+data/raw/
+data/processed/
+data/checkpoints/
+
+# ML artifacts
+ml/model.pkl
+ml/features.pkl
+
+# Env
+.env
+
+# Mac
+.DS_Store
