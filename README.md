@@ -53,7 +53,7 @@ airflow_ml_project/
 
 Example output:
 
-```
+```text
 [INFO] Filas usadas: 37191
 [INFO] Predicciones guardadas en: data/processed/predictions.csv
 [INFO] Primeras 5: [2508.73, 2415.59, 1756.45, 4098.79, 1805.56]
@@ -92,7 +92,7 @@ This pipeline simulates a real-world scenario where:
 - Predictions are generated on new incoming data
 - Results are stored for downstream analysis
 
-📝 Notes
+## 📝 Notes
 
 Raw and processed data files are excluded from version control through .gitignore
 Model artifacts such as model.pkl and features.pkl are generated during execution
