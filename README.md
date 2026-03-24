@@ -26,28 +26,23 @@ train_model >> predict_model
 
 ## 📂 Project Structure
 
-```
-proyecto_portfolio/
+```text
+airflow_ml_project/
 │
-├── airflow/
-│   └── dags/
-│       └── ml_pipeline.py
+├── dags/
+│   └── ml_pipeline.py
 │
 ├── ml/
 │   ├── train_model.py
 │   ├── predict.py
-│   ├── model.pkl
-│   ├── features.pkl
 │
 ├── data/
 │   ├── raw/
-│   │   └── import_data.csv
 │   └── processed/
-│       └── predictions.csv
 │
+├── .gitignore
 ├── README.md
 ├── requirements.txt
-```
 
 ## 📊 Results
 
@@ -96,6 +91,11 @@ This pipeline simulates a real-world scenario where:
 - Models are retrained automatically
 - Predictions are generated on new incoming data
 - Results are stored for downstream analysis
+
+📝 Notes
+Raw and processed data files are excluded from version control through .gitignore
+Model artifacts such as model.pkl and features.pkl are generated during execution
+This repository focuses on code, orchestration, and reproducibility rather than including the dataset itself
 
 ## 👨‍💻 Author
 
