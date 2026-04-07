@@ -1,12 +1,24 @@
 # 🚀 ML Pipeline with Airflow
 
 ## 📌 Overview
-This project implements an end-to-end machine learning pipeline using Apache Airflow.
+This project implements a production-style machine learning pipeline using Apache Airflow to automate model training and batch predictions on large datasets.
+
+The pipeline simulates a real-world scenario where data workflows are orchestrated, models are retrained, and predictions are generated automatically for downstream analysis and decision-making.
 
 The pipeline automates:
 - Model training
 - Feature persistence
 - Batch predictions over large datasets
+
+🎯 Problem Statement
+
+In real-world environments, machine learning models must be continuously updated and applied to new data without manual intervention.
+
+This project addresses that need by building a reproducible and automated pipeline that ensures:
+
+Consistent feature generation
+Reliable model retraining
+Scalable batch predictions
 
 ## 🧠 Architecture
 
